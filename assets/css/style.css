@@ -1,0 +1,140 @@
+:root {
+    --body: lightgrey;
+    --header: grey;
+
+}
+header {
+    background-color: var(--header);
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+    display: flex;
+    height: 125px;
+    justify-content:space-between
+}
+
+header img {
+    margin: 0px;
+    border-radius: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+#nav {
+    z-index: 10;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(103, 103, 103);
+
+}
+
+#nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:right;
+}
+
+#nav a:hover {
+    background-color: grey;
+}
+
+h1 {
+    margin: 0
+}
+
+h2 {
+    margin: 0;
+    padding-left: 25px;
+}
+
+#aboutMe {
+    background-color: var(--body);
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    width:50%;
+    height: 100%;
+    margin: 20px
+}
+
+#info #nameIntro {
+    font-size: larger;
+}
+
+#photo {
+    border: 10px solid white;
+    width: 50%;
+    margin: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+#photo img {
+    width: 100%;
+    height: auto;
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+
+#projects {
+    background-color: var(--body)
+}
+
+#projects h2 {
+    display:block
+}
+
+#projectCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    background-color: white;
+    display: block;
+    border: 3px solid black;
+    width: 40%;
+    padding: 15px;
+    margin: 40px;
+}
+
+.projectCard img {
+    width: 100%;
+}
+
+#contactMe {
+    background-color: var(--header);
+    margin: 0;
+    height: 100px
+}
+
+h5 {
+    text-align: center;
+    display:block;
+    margin: 0;
+    font-size:x-large
+}
+
+#contactMe ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0
+}
+
+#contactMe ul li {
+    display: block;
+    text-decoration: none;
+    margin: 20px
+}
